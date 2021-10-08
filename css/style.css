@@ -1,0 +1,277 @@
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url('../fonts/AvenirNextCyr-Regular.eot');
+  src: local('Avenir Next Cyr Regular'), local('AvenirNextCyr-Regular'),
+    url('../fonts/AvenirNextCyr-Regular.eot?') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-Regular.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-Regular.ttf') format('truetype');
+  font-weight: 450;
+  font-style: normal;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+font-family: Avenir Next Cyr;
+font-style: normal;
+font-weight: 450;
+font-size: 16px;
+line-height: 25px;
+color: #00000;
+text-decoration: none;
+}
+
+.header{
+width: 1920px;
+height: 55px;
+ background-color: #92d7ef; 
+}
+
+.header_kid{
+position: absolute;
+width: 960px;
+height: 55px;
+left: 466px;
+top: 0px;
+
+background: #0f7e9b;
+}
+
+.header_item1{
+font-family: Avenir Next Cyr;
+font-style: normal;
+font-weight: 450px;
+font-size: 16px;
+line-height: 49px;
+color: #000000;
+text-decoration: none;
+display: block;
+position: absolute;
+width: 131px;
+left: 150px;
+
+}
+
+.header_item2{
+font-family: Avenir Next Cyr;
+font-style: normal;
+font-weight: 450;
+font-size: 16px;
+line-height: 49px;
+color: #000000;
+text-decoration: none;
+display: block;
+position: absolute;
+width: 131px;
+left: 325px;
+
+}
+
+.header_item3{
+font-family: Avenir Next Cyr;
+font-style: normal;
+font-weight: 450;
+font-size: 16px;
+line-height: 49px;
+color: #000000;
+text-decoration: none;
+display: block;
+position: absolute;
+width: 131px;
+left: 500px;
+}
+
+.header_item4{
+font-family: Avenir Next Cyr;
+font-style: normal;
+font-weight: 450;
+font-size: 16px;
+line-height: 49px;
+color: #000000;
+text-decoration: none;
+display: block;
+position: absolute;
+width: 131px;
+left: 700px;
+
+}
+
+.logo {
+    position: absolute;
+width: 99px;
+height: 55px;
+left: 90px;
+top: -18px;
+}
+
+.header_nomer{
+  position: absolute;
+width: 263px;
+height: 55px;
+left: 1576px;
+top: 0px;
+
+background: #0f7e9b;
+}
+
+.header_nomer1{
+  position: absolute;
+width: 108px;
+height: 14px;
+left: 1708px;
+top: 16px;
+}
+
+.main{
+width: 1880px;  
+ height: 810px;
+ padding: 20px;
+    background: #F0F8FF; /* Цвет фона */
+}
+.footer{
+position: absolute;
+width: 1920px;
+height: 215px;
+left: 0px;
+top: 865px; 
+ background-color: #0f7e9b; 
+}
+
+.blok1{
+	position: absolute;
+	text-decoration: none;
+	line-height: 2.5;
+width: 400px;  
+ height: 400px;
+ padding: 20px;
+    background: #92d7ef; /* Цвет фона */
+left: 560px;
+}
+
+a{
+	color: #000 !important;
+
+	text-decoration: none;
+}
+
+
+
+.gallery {
+  width: 100%;
+}
+.gallery IMG {
+  margin-right:1.9%;
+  width: 17.5%;
+}
+
+.footer_blok1{
+  position: absolute;
+width: 224px;
+height: 133px;
+left: 120px;
+top: 902px;
+background: #92d7ef;
+}
+
+.footer_text1{
+  position: absolute;
+width: 122px;
+height: 28px;
+left: 173px;
+top: 946px;
+}
+
+.footer_blok2{
+  position: absolute;
+width: 201px;
+height: 122px;
+left: 458px;
+top: 900px;
+
+background: #92d7ef;
+}
+.footer_text2{
+position: absolute;
+width: 117px;
+height: 28px;
+left: 508px;
+top: 946px;
+}
+
+.inst_logo{
+  position: absolute;
+width: 58px;
+height: 58px;
+left: 1253px;
+top: 951px;
+}
+
+.vk_logo{
+position: absolute;
+width: 58px;
+height: 58px;
+left: 1362px;
+top: 951px;
+
+}
+
+.twitter_logo{
+ position: absolute;
+width: 58px;
+height: 58px;
+left: 1471px;
+top: 951px; 
+}
+
+.logo_footer{
+  position: absolute;
+left: 1580px;
+top: 880px;
+}
+
+.main_blok1{
+  position: absolute;
+width: 417px;
+height: 354px;
+left: 90px;
+top: 161px;
+
+background: #92d7ef;
+}
+
+.blok_img{
+  position: absolute;
+left: 105px;
+top: 29px;
+
+
+}
+
+.blok_text{
+  position: absolute;
+
+left: 95px;
+top: 230px;
+}
+
+.main_blok2{
+  position: absolute;
+width: 417px;
+height: 354px;
+left: 751px;
+top: 161px;
+
+background: #92d7ef;
+}
+.main_blok3{
+  position: absolute;
+width: 417px;
+height: 354px;
+left: 1442px;
+top: 161px;
+
+background: #92d7ef;
+}
