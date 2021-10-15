@@ -1,0 +1,396 @@
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url('../fonts/AvenirNextCyr-Regular.eot');
+  src: local('Avenir Next Cyr Regular'), local('AvenirNextCyr-Regular'),
+    url('../fonts/AvenirNextCyr-Regular.eot?') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-Regular.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-Regular.ttf') format('truetype');
+  font-weight: 450;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextCyr-Bold';
+  src: url('../fonts/AvenirNextCyr-Bold.eot');
+  src: local('Avenir Next Cyr Bold'), local('AvenirNextCyr-Bold'),
+    url('../fonts/AvenirNextCyr-Bold.eot?') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-Bold.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1{
+  font-family: "AvenirNextCyr-Bold";
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+font-family: Avenir Next Cyr;
+font-style: normal;
+font-weight: 450;
+font-size: 16px;
+line-height: 25px;
+color: #00000;
+text-decoration: none;
+}
+
+.header{
+width: 1920px;
+height: 41px;
+ background-color: #C4C4C4; 
+}
+
+.header_kid{
+position: absolute;
+width: 404px;
+height: 41px;
+left: 758px;
+top: 0px;
+
+background: #000000;
+}
+
+.header_item1{
+text-decoration: none;
+display: block;
+position: absolute;
+
+
+left: 90px;
+top: 15px;
+color: #FFFFFF;
+}
+.header_item2{
+text-decoration: none;
+display: block;
+position: absolute;
+
+left: 250px;
+top: 15px;
+color: #FFFFFF;
+}
+
+
+.logo {
+position: absolute;
+width: 63px;
+height: 41px;
+left: 110px;
+top: 0px;
+
+background: #000000;
+}
+
+.logo_text{
+  position: absolute;
+  left: 11px;
+top: 19px;
+color: #FFFFFF;
+font-size: 12px;
+line-height: 14px;
+}
+
+.header_poisk{
+position: absolute;
+width: 138px;
+height: 25px;
+left: 1628px;
+top: 8px;
+background: #FFFFFF;
+border-radius: 5px;
+text-align: center;
+font-size: 12px;
+line-height: 14px;
+color: #000000;
+border: 2px;
+}
+
+.poisk_img{
+  position: absolute;
+width: 17px;
+height: 17px;
+left: 1774px;
+top: 11px;
+}
+
+.main{
+width: 1880px;  
+ height: 1059px;
+ padding: 20px;
+}
+.footer{
+position: absolute;
+width: 1920px;
+height: 468px;
+left: 0px;
+top: 1100px;
+
+background: #C4C4C4;
+}
+
+.blok1{
+	position: absolute;
+	text-decoration: none;
+	line-height: 2.5;
+width: 400px;  
+ height: 400px;
+ padding: 20px;
+    background: #92d7ef; /* Цвет фона */
+left: 560px;
+}
+
+
+.gallery {
+  width: 100%;
+}
+.gallery IMG {
+  margin-right:1.9%;
+  width: 17.5%;
+}
+
+
+.cosseti_text{
+position: absolute;
+width: 272px;
+height: 28px;
+left: 1089px;
+top: 82px;
+
+
+font-size: 24px;
+line-height: 28px;
+
+
+color: #000000;
+}
+.inst_logo{
+position: absolute;
+width: 62px;
+height: 62px;
+left: 1089px;
+top: 135px;
+}
+
+.vk_logo{
+position: absolute;
+width: 62px;
+height: 62px;
+left: 1321px;
+top: 135px;
+}
+
+.twitter_logo{
+position: absolute;
+width: 62px;
+height: 62px;
+left: 1205px;
+top: 135px;
+}
+
+.logo_footer{
+position: absolute;
+width: 194px;
+height: 124px;
+left: 1661px;
+top: 320px;
+
+background: #000000;
+}
+.logo_f_text{
+position: absolute;
+left: 73px;
+top: 62px;
+text-align: center;
+color: #ffffff;
+}
+
+.f_about_blok{
+position: absolute;
+width: 200px;
+height: 21px;
+left: 464px;
+top: 88px;
+font-size: 20px;
+line-height: 40px;
+}
+
+.f_afisha_blok{
+position: absolute;
+width: 200px;
+height: 21px;
+left: 110px;
+top: 88px;
+font-size: 20px;
+line-height: 40px;
+}
+.f_partner_blok{
+position: absolute;
+width: 200px;
+height: 21px;
+left: 758px;
+top: 88px;
+font-size: 20px;
+line-height: 40px;
+}
+
+.blok_kt{
+position: absolute;
+width: 251px;
+height: 326px;
+left: 1592px;
+top: 188px;
+background: #C4C4C4;
+}
+.blok_kt_t{
+  position: absolute;
+width: 200px;
+height: 21px;
+left: 15px;
+top: 27px;
+font-size: 15px;
+line-height: 33px;
+}
+.blok_kt_sm{
+  position: absolute;
+width: 251px;
+height: 36px;
+top: 290px;
+background: #FA7E0C;
+text-align: center;
+}
+.blok_kt_sm p{
+  margin: 5px 0px 0px 0px;
+  color: #ffffff;
+}
+
+.blok2{
+  display: flex;
+position: absolute;
+width: 880px;
+height: 535px;
+top: 146px;
+left: 380px;
+}
+
+.blok2_img {
+  width: 100%;
+}
+.blok2_img IMG {
+margin: 0px 67px 0px 0px;
+  float: left;
+  width: 342px;
+}
+.blok2_b{
+  float: left;
+width: 342px;
+height: 42px;
+
+background: #FA7E0C;
+margin: 0px 67px 55px 0px;;
+text-align: center;
+font-size: 18px;
+}
+
+.blok2_b p{
+  margin: 10px 0px 0px 0px;
+  color: #ffffff;
+}
+
+.blok3{
+display: flex;
+position: absolute;
+width: 1280px;
+height: 125px;
+top: 729px;
+left: 380px;
+ display: table;
+}
+.blok3_img IMG {
+  display: flex;
+  margin: 0px 62px 0px 0px;
+  float: left;
+  width: 182px;
+}
+.blok3_b{
+float: left;
+width: 182px;
+height: 30px;
+
+background: #FA7E0C;
+margin: 0px 62px 0px 0px;
+
+ text-align: center;
+ font-size: 12px;
+}
+.blok3_b p{
+  color: #ffffff;
+}
+
+.blok4{
+position: absolute;
+width: 342px;
+height: 535px;
+top: 146px;
+left: 1189px;
+}
+.blok4_b{
+  position: absolute;
+width: 342px;
+height: 42px;
+top: 493px;
+background: #FA7E0C;
+text-align: center;
+}
+.blok4_b p{
+  margin: 10px 0px 0px 0px;
+  color: #ffffff;
+}
+
+.main_but{
+  position: absolute;
+width: 354px;
+height: 55px;
+left: 783px;
+top: 922px;
+text-align: center;
+background: #FA7E0C;
+text-decoration: none;
+}
+.main_but p{
+  margin: 15px 0px 0px 0px;
+  color: #ffffff;
+}
+
+.blok5{
+display: flex;
+position: absolute;
+width: 1806px;
+height: 500px;
+top: 238px;
+left: 112px;
+}
+
+.blok5_img IMG {
+  display: flex;
+  margin-right: 105px;
+  float: left;
+  width: 342px;
+  height: 200px;
+}
+.blok5_b{
+display: flex;
+float: left;
+width: 342px;
+height: 42px;
+background: #FA7E0C;
+margin: 0px 105px 20px 0px;
+}
+.blok5_b p{
+margin: 10px 0px 0px 120px;
+color: #ffffff;
+}
